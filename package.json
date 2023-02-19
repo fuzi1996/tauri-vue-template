@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "scripts": {
     "dev": "set RUST_BACKTRACE=1; && concurrently -k \"tauri dev\" \"pnpm devtools\"",
-    "tauri:dev":"tauri dev",
+    "tauri:dev": "tauri dev",
     "build": "tauri build",
     "vite:dev": "vite dev",
     "vite:build": "vite build",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@tauri-apps/api": "1.2.0",
+    "element-plus": "^2.2.32",
     "vue": "3.2.45"
   },
   "devDependencies": {
